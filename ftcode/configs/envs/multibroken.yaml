@@ -1,0 +1,8 @@
+actor_obs_size: [[0, 4], [4, 9], [9, 14], [14, 19], [19, 24], [24, 27], [27, 30]]
+per_episode_max_len: 40
+max_episode: 100000
+learning_fre: 50
+fault_time_range: [10, 30]
+#fault_probs: [1, 0, 0, 0, 0.]
+fault_probs: equal
+fault_max: 2
