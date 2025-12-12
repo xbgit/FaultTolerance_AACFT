@@ -1,7 +1,7 @@
 # FaultTolerance_AACFT
 
 ## Introduction
-This repository contains the code for the platform mentioned in our research paper 'Towards Fault Tolerance in Multi-Agent Reinforcement Learning' along with the proposed AACFT algorithm.
+This repository contains the code for the platform mentioned in our research paper [Toward Fault Tolerance in Multi-Agent Reinforcement Learning](https://ieeexplore.ieee.org/document/11096942) along with the proposed AACFT algorithm.
 
 
 ## Usages
@@ -28,4 +28,17 @@ python ftcode/main.py --flag 10 --device cuda:0 --env fix --alg aacft --fault br
 - Run the command for testing and environment rendering:
 ```
 python ftcode/main.py --env your_env_name --alg your_algorithm_name --fault your_fault_name --old_model_name your_model_name --test --display --n_rollout_threads 1
+```
+
+## Citation
+```
+@ARTICLE{11096942,
+  author={Shi, Yuchen and Pei, Huaxin and Feng, Liang and Zhang, Yi and Yao, Danya},
+  journal={IEEE Transactions on Automation Science and Engineering}, 
+  title={Toward Fault Tolerance in Multi-Agent Reinforcement Learning}, 
+  year={2025},
+  volume={22},
+  number={},
+  pages={19007-19024},
+  doi={10.1109/TASE.2025.3592721}}
 ```
